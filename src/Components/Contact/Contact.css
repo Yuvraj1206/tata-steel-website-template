@@ -1,0 +1,86 @@
+.contact{
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  min-height: 90vh;
+}
+.title-contact{
+  margin-top: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.title-contact h1{
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(86, 86, 180);
+}
+.title-contact h4{
+  font-size: 50px;
+  font-weight: 400;
+  color: rgb(42, 137, 137);
+}
+
+.contact-left{
+  flex-basis: 46%;
+  text-align: left;
+}
+.contact-left h3{
+  font-weight:700;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.contact-left p{
+  line-height: 1.5;
+  font-weight: 350;
+}
+.contact-left ul{
+  list-style: none;
+  font-weight: 500;
+}
+
+.contact-right{
+  flex-basis: 46%;
+}
+
+.contact-right form input, .contact-right form textarea{
+  display: block;
+  width: 90%;
+  border: none;
+  border-radius: 7px;
+  padding: 5px 10px;
+  background-color: rgb(151, 180, 215);
+  resize: none;
+  margin-bottom: 10px;
+}
+.btn-form{
+  width: 90px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(52, 118, 180);
+  color: aliceblue;
+}
+
+.btn-form:hover{
+  background-color: rgb(40, 98, 153);
+  color: aliceblue;
+}
+
+@media(max-width:800px){
+  .contact{
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-right{
+    margin: 50px 20px;
+  }
+  .title-contact{
+    margin-top: 70px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}

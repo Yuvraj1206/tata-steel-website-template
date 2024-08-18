@@ -1,0 +1,69 @@
+.hero{
+  width: 100%;
+  min-height: 100vh;
+  /* background:linear-gradient(rgba(8,0,58,0.7), rgba(8,0,58,0.7)), url("../../assets/tata-steel-hero-bg.jpg");
+  background-size: cover;
+  background-position: center; */
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1{
+  max-width: 50%;
+  font-size: 7vh;
+  margin-bottom: 3vh;
+}
+
+.hero p{
+  max-width: 65%;
+  font-size: 3vh;
+  line-height: 1.4;
+}
+
+.arw_img{
+  color: black;
+  display: block;
+}
+
+.exp_btn{
+  display: flex;
+  align-items: center;
+  height: 7vh;
+  width: 180px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media (max-width:800px) {
+  .hero h1{
+    max-width: 50%;
+    font-size: 4vh;
+    margin-bottom: 2vh;
+  }
+  .hero p{
+    max-width: 65%;
+    font-size: 2vh;
+    line-height: 1.4;
+  }
+  .exp_btn{
+    width: 120px;
+    height: 60px;
+  }
+}
+
+@media (max-width:490px){
+  .hero h1{
+    max-width: 50%;
+    font-size: 3.5vh;
+    margin-bottom: 3px;
+  }
+  .hero p{
+    max-width: 65%;
+    font-size: 1.5vh;
+    line-height: 1.4;
+  }
+}

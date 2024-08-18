@@ -1,0 +1,28 @@
+.slideShow{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10vh 0;
+}
+
+.slideShow img{
+  border-radius: 15px;
+  width: 80%;
+  margin: auto;
+}
+
+.slideShow h5{
+  font-size: 2vw;
+}
+
+@media(max-width:700px){
+  .slideShow h5{
+    font-size: 3vw;
+  }
+  .slideShow p{
+    display: none;
+  }
+  .slideShow img{
+    width: 100%;
+  }
+}
